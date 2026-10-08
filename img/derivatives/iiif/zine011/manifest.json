@@ -1,0 +1,106 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine011/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "zine011",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/zine011_binding.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_binding.json",
+          "label": "Page 1",
+          "width": 3072,
+          "height": 4080,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/zine011_binding.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 3072,
+                "height": 4080
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_binding.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_cover.json",
+          "label": "Page 2",
+          "width": 4080,
+          "height": 3072,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_cover/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/zine011_cover.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_cover/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_cover",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4080,
+                "height": 3072
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_cover.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_standing.json",
+          "label": "Page 3",
+          "width": 3072,
+          "height": 4080,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_standing/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/zine011_standing.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_standing/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_standing",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 3072,
+                "height": 4080
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/zine011_standing.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/zine011_binding/full/1140,/0/default.jpg"
+}

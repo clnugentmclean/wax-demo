@@ -1,0 +1,81 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/zines.json",
+  "@type": "sc:Collection",
+  "label": "zines",
+  "manifests": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine001/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine001"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine002/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine002"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine003/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine003"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine004/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine004"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine005/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine005"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine006/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine006"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine007/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine007"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine008/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine008"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine009/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine009"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine010/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine010"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine011/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine011"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine012/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine012"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine013/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine013"
+    },
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/zine014/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "zine014"
+    }
+  ]
+}
