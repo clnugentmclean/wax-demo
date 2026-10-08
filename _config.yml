@@ -99,7 +99,7 @@ search:
 menu:
   - label: 'About'
     link: '/about/'
-  - label: 'Teaching Resources'
+  - label: 'Resources'
     sub:
       - label: 'Workshops'
         link: '/workshops/'
