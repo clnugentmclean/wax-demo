@@ -3,6 +3,8 @@
 source 'https://rubygems.org'
 gemspec
 
+gem "ffi", "~> 1.16.3"
+
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem 'wdm', '~> 0.1.1', :install_if => Gem.win_platform?
   gem "tzinfo", ">= 1", "< 3"
