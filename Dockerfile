@@ -3,6 +3,7 @@ FROM ruby:2.7.2
 MAINTAINER Andrew Woods <awoods01@gmail.com>
 
 # Install apt dependencies
+RUN sed -i 's|deb.debian.org|archive.debian.org|g; s|security.debian.org/debian-security|archive.debian.org/debian-security|g; /buster-updates/d' /etc/apt/sources.list
 RUN apt-get update -y
 RUN apt-get install -y --no-install-recommends \
                        build-essential \
