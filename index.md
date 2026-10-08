@@ -3,7 +3,7 @@ layout: page
 show_title: false
 banner:
   collection: zines
-  pid: zine006
+  pid: zine013
   y: 25%
   clickable: yes
   height: '500px'
