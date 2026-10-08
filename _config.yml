@@ -19,8 +19,8 @@
 
 title:            'Expressive Paper'
 description:      'Wax Version of Zine Site'
-url:              'https://minicomp.github.io'
-baseurl:          '/wax'
+url:              'https://clnugentmclean.github.io'
+baseurl:          '/wax-demo'
 copyright:        'Example copyright org, 2023'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
