@@ -4,18 +4,18 @@ title: Browse the Collection
 permalink: /collection/
 ---
 
-This site's sample collection comprises a set of objects, each of which is represented by one or more images. The collection items in this demo are from The Museum of Islamic Art, Qatar, (courtesy of [WikiMedia](https://commons.wikimedia.org/wiki/Category:Google_Art_Project_works_in_The_Museum_of_Islamic_Art,_Qatar) and [Google Art Project](https://www.google.com/culturalinstitute/about/artproject/)) and The Qatar National Library (via [World Digital Library](https://www.wdl.org/en/)).
+This collection includes images of zines and other materials created as part of the “Margins and Methods” workshops in the Critical Making Lab at Northeastern University’s Centers for Digital Scholarship. The Margins and Methods workshops were funded through a generous grant from the [NULab for Digital Humanities and Computational Social Science](https://cssh.northeastern.edu/nulab/), which enabled us to develop a pilot workshop curriculum including handouts, instructions, samples, and other supporting materials. This site records and explores those materials and will expand as more workshops in the series take place.
+
+Selected materials are also housed in the [Northeastern University Digital Repository Service](https://repository.library.northeastern.edu/communities/neu:zg64tm73g).
 
 ## By Location
-{% include collection_gallery.html facet_by='location' collection='qatar' %}
+{% include collection_gallery.html facet_by='location' collection='zines' %}
 
 ## By Object Type
 
-### Manuscripts
-{% include collection_gallery.html facet_by='object_type' only='manuscript' collection='qatar' %}
-### Portraits
-{% include collection_gallery.html facet_by='object_type' only='portrait' collection='qatar' %}
-### Maps
-{% include collection_gallery.html facet_by='object_type' only='map' collection='qatar' %}
-### Panels
-{% include collection_gallery.html facet_by='object_type' only='panel' collection='qatar' %}
+### Folded Zines
+{% include collection_gallery.html facet_by='object_type' only='Folded Zine' collection='zines' %}
+### Stapled Zines
+{% include collection_gallery.html facet_by='object_type' only='Stapled Zine' collection='zines' %}
+### Thread Bound Zines
+{% include collection_gallery.html facet_by='object_type' only='Thread Bound Zine' collection='zines' %}
